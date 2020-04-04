@@ -1,4 +1,48 @@
-import planet
-print(planet.planet1)
-print(
-print(planet.planet2)
+import random
+import re
+import time
+
+MIN_COLOR_CODE = 0
+MAX_COLOR_CODE = 255
+DELAY_TIME = 1
+
+
+def get_planets(file_name):
+    with open(file_name, 'r') as f:
+        raw_planets = f.read()
+    file_planet_separator = "```\n+#\s*\d+\n+```\n*"
+    planets = re.split(file_planet_separator, raw_planets)
+    return planets
+
+
+def clear_planet(planet):
+    planet_height = len(planet.split("\n"))
+    move_cursor_up_seq = f"\u001b[{planet_height}A]"
+    clear_screen_seq = "\u001b[2A"
+    print(move_cursor_up_seq + "\n" + clear_screen_seq)
+
+
+def change_color_randomly():
+    random_color_code = random.randrange(MIN_COLOR_CODE, MAX_COLOR_CODE)
+    print(f"\u001b[38;5;{random_color_code}m", end='')
+
+
+def draw_planets(planets):
+    while True:
+        for planet in planets:
+            change_color_randomly()
+            print(planet)
+            time.sleep(DELAY_TIME)
+            clear_planet(planet)
+
+
+def main():
+    planets = get_planets('planets.md')
+    try:
+        draw_planets(planets)
+    except KeyboardInterrupt:
+        print("THE END")
+
+
+if __name__ == '__main__':
+    main()
