@@ -4,7 +4,7 @@ import time
 
 MIN_COLOR_CODE = 0
 MAX_COLOR_CODE = 255
-DELAY_TIME = 1
+DELAY_TIME = 0.5
 
 
 def get_planets(file_name):
@@ -18,8 +18,9 @@ def get_planets(file_name):
 def clear_planet(planet):
     planet_height = len(planet.split("\n"))
     move_cursor_up_seq = f"\u001b[{planet_height}A]"
-    clear_screen_seq = "\u001b[2A"
-    print(move_cursor_up_seq + "\n" + clear_screen_seq)
+    # clear_screen_seq = "\u001b[2A"
+    clear_screen_seq = "\033[2J"
+    print(move_cursor_up_seq + "\n" + clear_screen_seq, end='')
 
 
 def change_color_randomly():
@@ -28,20 +29,17 @@ def change_color_randomly():
 
 
 def draw_planets(planets):
-    while True:
-        for planet in planets:
-            change_color_randomly()
-            print(planet)
-            time.sleep(DELAY_TIME)
-            clear_planet(planet)
+    for planet in planets:
+        change_color_randomly()
+        print(planet, end="")
+        time.sleep(DELAY_TIME)
+        clear_planet(planet)
 
 
 def main():
     planets = get_planets('planets.md')
-    try:
-        draw_planets(planets)
-    except KeyboardInterrupt:
-        print("THE END")
+    draw_planets(planets)
+    print("THE END")
 
 
 if __name__ == '__main__':
