@@ -21,11 +21,7 @@
             `~,   .                     ./
                 . _                  .-PP
                   '`--._,dd###pp='''
-```
 
-# 2
-
-```
                   .ovr:HMM#?:`' >b\\_
               .,:&Hi' `'   '' \\\\|&bSMHo_
             oHMMM#*}          `?&dMMMMMMHo.
@@ -49,11 +45,7 @@
             -. `b,,    .                . '
               '-\\   .,               .-`
                   '-:b~\\\\_,oddq==--'
-```
 
-# 3
-
-```
                   _oo##'9MMHb':'-,o_
               .vM':HH$'    '''  '' -\\7*_
            .oHMMMHMH#9:          '\\bMMMMHo.
@@ -77,10 +69,7 @@
             -.         #M: .    .       .-
               ` .         .,         .-
                   '-.-~ooHH__,,v~--`
-```
-# 4
 
-```
                   _,\\?dZkMHF&$*q#b..
               .//9MMMMMMM?:'HM\\\\'`-''`..
            ..`  :MMMMMMMMMMHMMMMH?_    `-\\
@@ -104,9 +93,7 @@
            `.                &M'..  .   ..'
               ' .             ._     .-
                   '-. -voboo#&:,-.-`
-```
-# 5
-```
+
                   _\\oo\\?ddk9MRbS>v\\_
               ..:>*''MMMMMMMMM:?|H?$?-.
            ..- -     'HMMMMMMMMMMHMMMH\\_-.
@@ -130,9 +117,7 @@
             -.                    ,M'-  ..'
               ` .                .. ..-`
                   '-. .\\ooooboo<^.-`
-```
-# 6
-```
+
                   _o\\:,??\\??MR9#cb\\_
               .v/''':&#''#HMMMMMMM$?*d\\.
            ..~' - -`      `'#MMMMMMMMMMMHv.
@@ -156,10 +141,7 @@
            `.                         ,/\\ '
               '-..                  _.-
                   '---.._\\o,oov+--''
-```
-# 7
 
-```
                   _,oc>?_:b?o?HH#b\\_
               .v/99*''' '*H#''*HMMMMMZ,_
             oH* /'   -   '      '`#MMMMM#o.
@@ -183,9 +165,7 @@
             -                           ,-'
               ' .                    .-
                  ```^==\\_.,,,ov--\\-`
-```
-# 8
-```
+
                   _,o#bH\\??::?o?cbo_
               .o#MH#**SH''' '`*H#'*#MHo_
             oHMMMH^  ^'    -  `      '*HHo.
@@ -209,9 +189,7 @@
            ` .                          ..'
                - .                  ..-
                   '`*#d##c.._\\v----`
-```
-# 9
-```
+
                   _oo#H&d#b?\\b:_>>\\_
               .oHMMMMMMH*'*9R''-``*#P\\-_
             oHMMMMMMMMM$  .'       '   `^-
@@ -235,9 +213,7 @@
            `-                           ..'
               ' .                    .-
                   '`*##HMH##:__,-.-`
-```
-# 10
-```
+
                   _,dd#HMb&dHo?\\?:\\_
               .oHMMMMMMMMMMMH***9P'`'\\v.
             oHMMMMMMMMMMMMMMM>  `'      -.
@@ -261,9 +237,7 @@
            `..                          ..'
               `  .                   .-
                   '`'#HHMMMMM#<>..-`
-```
-# 11
-```
+
                   _,,>#b&HMHd&&bb>\\_
               _oHMMMMMMMMMMMMMMMMH**H:.
             oHMMMMMMMMMMMMMMMMMMMM#v`?  `.
@@ -287,9 +261,7 @@
            `.                           .-
               '- .                   .-`
                   '`\\bqHMMMMMMHHb--`
-```
-# 12
-```
+
                   _,<_:&S6dHHHb&bb\\_
               .odHMMMMMMMMMMMMMMMMMMM}-_
            .oHMMMMMMMMMMMMMMMMMMMMMMMM#d:.
@@ -313,11 +285,7 @@
            ` .                          . '
               ` .                    . `
                   '--##HH#HMMMHH#''`
-```
 
-# 13
-
-```
                   .-:?,Z?:&$dHH##b\\_
                ,:bqRMMMMMMMMMMMMMMMMMHo.
             .?HHHMMMMMMMMMMMMMMMMMMMMMMMHo.

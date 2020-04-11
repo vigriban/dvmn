@@ -10,15 +10,13 @@ DELAY_TIME = 0.5
 def get_planets(file_name):
     with open(file_name, 'r') as f:
         raw_planets = f.read()
-    file_planet_separator = "```\n+#\s*\d+\n+```\n*"
-    planets = re.split(file_planet_separator, raw_planets)
+    planets = re.split('\n\n', raw_planets)
     return planets
 
 
 def clear_planet(planet):
     planet_height = len(planet.split("\n"))
     move_cursor_up_seq = f"\u001b[{planet_height}A]"
-    # clear_screen_seq = "\u001b[2A"
     clear_screen_seq = "\033[2J"
     print(move_cursor_up_seq + "\n" + clear_screen_seq, end='')
 
@@ -37,7 +35,7 @@ def draw_planets(planets):
 
 
 def main():
-    planets = get_planets('planets.md')
+    planets = get_planets('planets.txt')
     draw_planets(planets)
     print("THE END")
 
